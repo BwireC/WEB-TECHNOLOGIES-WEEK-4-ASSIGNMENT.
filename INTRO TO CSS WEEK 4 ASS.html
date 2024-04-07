@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Margin and Padding Features</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        padding: 20px;
+    }
+    header {
+        background-color:crimson;
+        padding: 20px;
+        color: white;
+        text-align: center;
+    }
+    section {
+        padding: 20px;
+    }
+    #introduction {
+        background-color: #f2f2f2;
+        margin-top: 20px;
+    }
+    #skills {
+        background-color: #fff;
+        margin-top: 20px;
+        color: black;
+    }
+    #skills ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    #skills li {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 5px;
+    }
+    #contact {
+        background-color:crimson;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Media query for responsiveness */
+    @media screen and (max-width: 600px) {
+        header, section, #contact {
+            padding: 10px;
+        }
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Cyprian Bwire</h1>
+</header>
+
+<section id="introduction">
+    <p>Hello, I'm Cyprian Bwire.I am a student at Power Learn Project.</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Information</h2>
+    <p>Email: abbacus17@gmail.com</p>
+    <p>Social Media: <a href="#">Twitter</a>, <a href="#">LinkedIn</a>,<a href="#">Instagram</a></p>
+</section>
+
+</body>
+</html>
